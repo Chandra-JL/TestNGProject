@@ -23,8 +23,7 @@ import pages.LoginPage;
 
 public class LoginTest extends BaseClass {
 
-	@Test
-
+	@Test(groups= {"sanity"},description="Login failure test")
 	public void TC01_LoginFailure() {
 
 		// below commented codes moved to base class and LoginPage.
@@ -72,7 +71,7 @@ public class LoginTest extends BaseClass {
 
 	}
 
-	@Test
+	@Test(groups= {"sanity"},description="Login success test")
 	public void TC02_LoginSuccessTest() {
 		LoginPage lp = new LoginPage(); // creating object for LoginPage
 		lp.LoginFunction("chandra.jl92@gmail.com", "Pratheesha123*");
