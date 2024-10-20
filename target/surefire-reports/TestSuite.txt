@@ -1,4 +1,50 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.853 s - in TestSuite
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 4.794 s <<< FAILURE! - in TestSuite
+testcases.LoginTest.SetUpDriver  Time elapsed: 4.454 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 130.0.6723.59 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'CHAVI', ip: '192.168.1.13'
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 11}]}]
+Capabilities {browserName: chrome, platformName: Windows 11}
+
+testcases.LoginTest.SetUpDriver  Time elapsed: 4.46 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 130.0.6723.59 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'CHAVI', ip: '192.168.1.13'
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 11}]}]
+Capabilities {browserName: chrome, platformName: Windows 11}
+
+testcases.LoginTest.TearDown  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+testcases.LoginTest.TearDown  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
